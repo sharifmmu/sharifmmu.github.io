@@ -225,7 +225,7 @@
 	}
 	
 	.nextslide:before {
-		content: 'É';
+		content: 'Ã‰';
 		font-family: 'Web Symbols', sans-serif;
 		margin-right: 10px;
 		text-decoration: none;
@@ -236,7 +236,7 @@
 	}
 	
 	.nextslide:hover:before {
-		content: 'Ê';
+		content: 'ÃŠ';
 	}
 	
 	.nextslide span {
@@ -245,6 +245,121 @@
 		letter-spacing: -1px;
 	}
 		
+		/* Navigation ------------------------------------------ */
+		
+		nav ul {
+			display: inline-block;
+		}
+		
+		nav #fluid-nav li, nav #fixed-nav li {
+			display: inline-block;
+			margin-left: 6px;
+			-webkit-font-smoothing: subpixel-antialiased;
+		}
+		
+		nav #fluid-nav li:first-child, nav #fixed-nav li:first-child  {
+			margin-left: 0;
+		}
+		
+		nav #fluid-nav li a, nav #fixed-nav li a {
+			color: #fff;
+			font-weight: normal;
+			text-transform: lowercase;
+			font-size: 12px;
+		}
+		
+		nav #fluid-nav li a:hover, nav #fixed-nav li a:hover {
+			color: #fec400;
+		}
+		
+		nav #fluid-nav li.current a, nav #fixed-nav li.current a {
+			color: #fec400;
+			font-weight: 700;
+		}
+		
+		nav ul.social-icons {
+			float: right;
+		}
+		
+		nav .social-icons li {
+			display: inline-block;
+		}
+		
+		nav .social-icons li a {
+			font-family: 'Web Symbols', sans-serif;
+			font-size: 13px;
+			color: #fff;
+		}
+
+		nav .social-icons li a:hover {
+			color: #fec400;
+		}
+				
+		nav#topnav {
+			text-align: left;
+			height: 120px;
+			overflow: hidden;
+			border-bottom: 4px solid #fff;
+		}
+		
+		nav#topnav .logo {
+			position: relative;
+			top: 51px;
+		}
+		
+		nav#topnav .logo-status {
+			position: relative;
+			top: 16px;
+			left: 220px;
+			font-size: 12px;
+			font-family: 'Trebuchet MS', sans-serif;
+			font-weight: 700;
+			color: #a5a7ac;
+		}
+		
+		nav#topnav #fixed-nav li {
+			margin-top: 56px;
+		}
+		
+		nav#topnav ul.social-icons {
+			margin-top: 54px;
+		}
+		
+		nav#mainnav {
+			width: 100%;
+			height: 50px;
+			background-color: #25292c;
+			overflow: hidden;
+			position: relative;
+			z-index: 1000;
+		}
+		
+		nav#mainnav .logo {
+			position: absolute;
+			top: 14px;
+		}
+		
+		nav#mainnav #fluid-nav li {
+			margin-top: 16px;
+		}
+		
+		nav#mainnav ul.social-icons {
+			margin-top: 14px;
+		}
+			
+		.selectnav {
+			display: none;
+			font-size: 12px;
+			position: absolute;
+		}
+		
+		nav#topnav .selectnav {
+			margin-top: 26px;
+		}
+		
+		nav#mainnav .selectnav {
+			margin-top: -12px;
+		}
 		
 /* ========================================================
    Pages
