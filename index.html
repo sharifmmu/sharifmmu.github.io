@@ -40,7 +40,7 @@
 						<div class="row">
 							<div class="span5">
 								<a href="index.html"><img class="logo" src="img/logo-b.png" alt=""></a>
-								<div class="logo-status visible-desktop"></div>
+								<div class="logo-status visible-desktop">onepage theme for agencies</div>
 							</div>
 							<div class="span7">
 								<ul id="fixed-nav" class="hidden-phone scroll-links">
@@ -284,7 +284,7 @@
 							<ul class="slides">
 								<li>
 									<div class="slider-text">
-										<a href="#" class="slider-title">Reservatorâ€™s Mobile App</a>
+										<a href="#" class="slider-title">Reservator’s Mobile App</a>
 										<div class="slider-desc">Duis tincidunt erat quam. Etiam placerat sapien elit. Pellentesque egestas ornare sagittis. Sed augue lorem, dignissim eget bibendum vitae, scelerisque eget justo. Class aptent taciti sociosqu ad litora.</div>
 									</div>
 									<img src="img/slider/1.jpg" alt="" /></li>
@@ -541,12 +541,8 @@
 		<!-- Start Twitter Feed -->
 		<section id="twitter">
 			<div class="container">
-				<div class="row">
-					<div class="span12">
-						<div class="twitter-title">Latest tweets <a class="hidden-tablet" href="http://twitter.com/envato" target="_blank">@envato</a></div>
-					</div>
+				<div id="twitter-feed" class="row">
 				</div>
-				<div id="twitter-feed"></div>
 			</div>
 		</section>
 		<!-- End Twitter Feed -->
@@ -611,7 +607,7 @@
 		<section id="copyright">
 			<div class="container">
 				<div class="row">
-					<div class="span12">Â© 2013 <strong>Goltsman Agency</strong>. <br class="visible-phone" />Powered by <a href="http://themes.tvda.eu">WordPress</a>. <a href="http://themes.tvda.eu">Goltsman Template</a> by <a href="http://themes.tvda.eu">TVDA</a>.</div>
+					<div class="span12">© 2013 <strong>Goltsman Agency</strong>. <br class="visible-phone" />Powered by <a href="http://themes.tvda.eu">WordPress</a>. <a href="http://themes.tvda.eu">Goltsman Template</a> by <a href="http://themes.tvda.eu">TVDA</a>.</div>
 				</div>
 			</div>
 		</section>
@@ -631,8 +627,8 @@
 	<script src="js/contact.js"></script><!-- Contact Form -->
 	<script src="js/settings.js"></script><!-- Settings -->
 	<script src="js/shortcodes.js"></script><!-- Shortcodes -->
-	<script src="js/twitter/jquery.tweet.js"></script> <!-- Twitter Feed -->
-	<script src="js/twitter-options.js"></script> <!-- Twitter Feed Options -->
+	<script src="js/last-tw.js"></script><!-- Twitter Feed -->
+	<script src="https://api.twitter.com/1/statuses/user_timeline/envato.json?callback=twitterCallback2&count=3"></script><!-- Twitter Feed Username (change 'envato' to your username) -->
 
 </body>
 
